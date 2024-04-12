@@ -1,1 +1,52 @@
-Hello World
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Cambio de Moneda a Pesos Colombianos</title>
+    <!-- Enlaces a los estilos CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+
+    <header>
+        <img src="https://www.politecnicomayor.edu.co/moodle/form_inicio/images/logo1.png" alt="Icono de Moneda"
+            class="icono-moneda">
+        <!-- Banner principal -->
+        <h1>Politécnico Change</h1>
+    </header>
+
+    <main>
+        <!-- Contenido principal de la página -->
+        <h2>Calculadora de Cambio de Moneda a Pesos Colombianos</h2>
+        <div>
+            <label for="amount">Cantidad:</label>
+            <input type="number" id="amount">
+            <select id="currency">
+                <option value="EU">Euros</option>
+                <option value="USD">Dólares</option>
+                <option value="BR">Reales Brasileños</option>
+            </select>
+            <button onclick="convertCurrency()">Convertir a COP</button>
+            <p id="result"></p>
+        </div>
+    </main>
+
+    <!-- Script de JavaScript -->
+    <script src="script.js"></script>
+
+    <iframe src="https://www.google.com/maps/d/embed?mid=1ojSclIl4YLcUSgBzSH_SBNV_8cI&hl=en_US&ehbc=2E312F" width="640"
+        height="480" ></iframe>
+        <img src="https://www.politecnicomayor.edu.co/wp-content/uploads/2023/07/ACEX.jpg"
+        width="51.38%"
+        
+        <footer>
+            <!-- Pie de página -->
+            <p>&copy; 2021 Politécnico Change. Todos los derechos reservados.</p>
+        </footer>
+</body>
+
+</html>

@@ -1,0 +1,29 @@
+body {
+    background-color: #ece4eb; /* Color de fondo azul claro */
+    font-family: 'Times New Roman', serif; /* Fuente Times New Roman */
+    font-size: 16px; /* Tamaño de fuente por defecto */
+}
+
+header {
+    background-color: #214e1f;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* Hacer que los títulos sean en negrilla */
+}
+
+footer {
+    background-color: #053b1a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
